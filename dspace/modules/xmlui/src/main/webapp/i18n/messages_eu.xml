@@ -24,7 +24,7 @@
     <!--  V3.0 messages  by Emilio Lorenzo (elorenzo@arvo.es) at Arvo Consultores (http://www.arvo.es/dspace) -->
 
 	<!-- General keys -->
-<message key="xmlui.general.dspace_home">DSpace Principal</message>
+<message key="xmlui.general.dspace_home">EIMA Gordailua</message>
 <message key="xmlui.general.search">Bilaketak</message>
 <message key="xmlui.general.go">Joan</message>
 <message key="xmlui.general.go_home">Hasierako orrialdear joan DSpace</message>
@@ -92,7 +92,7 @@
 <message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Eskaerarekin bat datozen komunitate edo bildumak</message>
 <message key="xmlui.ArtifactBrowser.AbstractSearch.head3">Eskaerarekin bat datozen itemak</message>
 <message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Bilaketak ez du emaitzarik izan</message>
-<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Dspace osoa</message>
+<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">Gordailu osoa</message>
 
 <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">izenburua</message>
 <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">argitalpen data</message>
@@ -142,15 +142,15 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.ConfigureableBrowse.java -->
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with">Edo hasierako hitzak sartu:</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.starts_with_help">Hitz hauekin hasten diren itemak bistaratu</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_select">Aurkibidearen puntu zehatz batera joan:</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">(Hilabetea aukeratu)</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_select">Joan aurkibideko puntu batera:</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_month">(Aukeratu hilabetea)</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.choose_year">(Urtea aukeratu)</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">Edota urte bat sartu:</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year">Edo sartu urtea:</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.jump_year_help">Urte zehatz bateko itemak bistaratu.</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.no_results">Sentitzen dugu, bilaketa honek ez du emaitzarik izan.</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.sort_by">Honela ordenatu:</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.order">Ordena:</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.rpp">Emaitzak:</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.rpp">Emaitzak orrialdeko:</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.general.etal">Egileak/Item:</message>
 
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.etal.all">Guztiak</message>
@@ -165,32 +165,32 @@
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.author.column_heading">Egileen izena</message>
 <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.subject.column_heading">Materia</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.author">Zerendatu honen arabera{0} egilea{1}</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.author">Zerrendatu honen arabera{0} egilea</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.author">Zerendatu {0} honen arabera: egilea{1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.author">Zerrendatu {0} honako honen arabera: egilea</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">Zerrendatu honen arabera{0} gaia{1}</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.subject">Zerrendatu honen arabera {0} gaia</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.subject">Zerrendatu {0} honen arabera: gaia{1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.subject">Zerrendatu {0} honen arabera: gaia</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.title">Zerrendatu honen arabera {0} izenburua{1}</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.title">Zerrendatu honen arabera {0} izenburua</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.title">Zerrendatu {0} honen arabera: izenburua{1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.title">Zerrendatu {0} honen arabera: izenburua</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateissued">Zerrendatu honen arabera {0} argitalpen data{1}</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateissued">Zerrendatu honen arabera {0} argitalpen data</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateissued">Zerrendatu {0} honen arabera: argitalpen data{1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateissued">Zerrendatu {0} honen arabera: argitalpen data</message>
 
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Zerrendatu honen arabera {0} bidalketa data{1}</message>
-<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Zerrendatu honen arabera {0} bidalketa data</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Zerrendatu {0} honen arabera: bidalketa data{1}</message>
+<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Zerrendatu {0} honen arabera: bidalketa data</message>
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
 <message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Bilaketaren eremua</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Dspace osoa</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">Gordailu osoa</message>
 <message key="xmlui.ArtifactBrowser.CollectionViewer.full_text_search">Bilduma honen bilaketa:</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">Zerrendatu honen arabera</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">Zerrendatu honako honen arabera:</message>
 <message key="xmlui.ArtifactBrowser.CollectionViewer.browse_titles">Izenburuak</message>
 <message key="xmlui.ArtifactBrowser.CollectionViewer.browse_authors">Egileak</message>
 <message key="xmlui.ArtifactBrowser.CollectionViewer.browse_dates">Datak</message>
 <message key="xmlui.ArtifactBrowser.CollectionViewer.advanced_search_link">Bilaketa aurreratua</message>
-<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Azken bidalketak</message>
+<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Eransitako azken lanak</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
 <message key="xmlui.ArtifactBrowser.CommunityBrowser.title">Komunitateen zerrenda</message>
@@ -200,7 +200,7 @@
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
 <message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Bilaketaren eremua</message>
-<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">Dspace osoa</message>
+<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">Gordailu osoa</message>
 <message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Bilatu komunitate honetan eta bere bildumetan:</message>
 <message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">Bistaratu honako honen arabera</message>
 <message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">Izenburuak</message>
@@ -225,9 +225,9 @@
 <message key="xmlui.ArtifactBrowser.FeedbackForm.title">Iradokizunak</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.trail">Iradokizunak</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.head">Iradokizunak</message>
-<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Eskerrik asko Dspaceri buruzko iradokizunak egiteagatik. Zure iradokizunak kontuan hartuko ditugu!</message>
+<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Eskerrik asko EIMA Gordailuari buruzko iradokizunak egiteagatik. Zure iradokizunak kontuan hartuko ditugu!</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.email">Zure posta elektronikoa</message>
-<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">Helbide hau ez da erabiliko zure iradokizunaren jarraipena egiteko.</message>
+<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">Helbide hau erabiliko dugu zure iradokizunaren jarraipena egiteko.</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.comments">Iruzkinak</message>
 <message key="xmlui.ArtifactBrowser.FeedbackForm.submit">Iradokizunak</message>
 
@@ -244,14 +244,14 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 <message key="xmlui.ArtifactBrowser.ItemViewer.trail">Itemaren erregistro erraza erakusten du</message>
 <message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Item hau honako bilduma honetan/hauetan agertzen da</message>
-<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Mostrar el registro sencillo del ítem Itemaren erregistro erraza erakutsi</message>
+<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Itemaren erregistro erraza erakusten du</message>
 <message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Mostrar el registro completo del ítem Itemaren erregistro osatua erakutsi</message>
 
 <message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">Item hau ez dago eskuragarri, erretiratua izan da</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
-<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Bistaratu</message>
-<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Dspace osoa</message>
+<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Zerrendatu honako honen arabera</message>
+<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">Gordailu osoa</message>
 <message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Komunitateak &amp; bildumak</message>
 <message key="xmlui.ArtifactBrowser.Navigation.browse_title">Izenburuak</message>
 <message key="xmlui.ArtifactBrowser.Navigation.browse_author">Egileak</message>
@@ -342,14 +342,14 @@
 <message key="xmlui.EPerson.EditProfile.email_address">Posta elektronikoko helbidea</message>
 <message key="xmlui.EPerson.EditProfile.first_name">Izena</message>
 <message key="xmlui.EPerson.EditProfile.last_name">Abizena</message>
-<message key="xmlui.EPerson.EditProfile.telephone">Teléfonoa</message>
+<message key="xmlui.EPerson.EditProfile.telephone">Telefonoa</message>
 <message key="xmlui.EPerson.EditProfile.Language">Hizkuntza</message>
 <message key="xmlui.EPerson.EditProfile.subscriptions">Harpidetzak</message>
 <message key="xmlui.EPerson.EditProfile.subscriptions_help">Bilduma jakinetan harpidetu zaitezke bertan erantsitako itemei buruzko posta bat egunero jaso nahi baduzu. Nahi duzun bilduma guztietan egin dezakezu harpidetza. Beste aukera bat RSS zerbitzua erabiltzea da. Hau bilduma guztietan dago erabilgarri.</message>
 <message key="xmlui.EPerson.EditProfile.email_subscriptions">Posta elektronikoaren bidezko harpidetza</message>
 <message key="xmlui.EPerson.EditProfile.select_collection">(Bilduma aukeratu)</message>
 <message key="xmlui.EPerson.EditProfile.update_password_instructions">Nahi izanez gero, pasahitz berria aukera dezakezu, goiko laukitxoan tekleatuta eta bigarren laukitxoan baieztatuta. Gutxienez sei karaktere eduki beharko luke.</message>
-<message key="xmlui.EPerson.EditProfile.create_password_instructions">Mesedez, sartu pasahitza goiko laukitxoan. Baieztatzeko, tekleatu berriro bigarren laukitxoan. Gutxienez sei karaktere eduki beharko luke.</message>
+<message key="xmlui.EPerson.EditProfile.create_password_instructions">Sartu pasahitza lehenengo laukian, mesedez, eta berretsi bigarren laukian. Gutxienez, sei karaktere izan behar ditu.</message>
 <message key="xmlui.EPerson.EditProfile.password">Pasahitza</message>
 <message key="xmlui.EPerson.EditProfile.confirm_password">Berresteko, errepikatu.</message>
 <message key="xmlui.EPerson.EditProfile.submit_update">Amaitu erregistro-prozesua</message>
@@ -386,7 +386,7 @@
 <message key="xmlui.EPerson.Navigation.profile">Profila</message>
 <message key="xmlui.EPerson.Navigation.logout">Irten</message>
 <message key="xmlui.EPerson.Navigation.login">Sartu</message>
-<message key="xmlui.EPerson.Navigation.register">Erregistroa</message>
+<message key="xmlui.EPerson.Navigation.register">Erregistratu</message>
 
 	<!-- org.dspace.app.xmlui.eperson.PasswordLogin.java -->
 <message key="xmlui.EPerson.PasswordLogin.title">Sartu</message>
@@ -397,9 +397,9 @@
 <message key="xmlui.EPerson.PasswordLogin.password">Pasahitza</message>
 <message key="xmlui.EPerson.PasswordLogin.forgot_link">Pasahitza ahaztu al duzu?</message>
 <message key="xmlui.EPerson.PasswordLogin.submit">Sartu</message>
-<message key="xmlui.EPerson.PasswordLogin.head2">Erregistratu erabiltzaile berria.</message>
-<message key="xmlui.EPerson.PasswordLogin.para1">Sortu kontu bat bildumen harpidetza egiteko, itemen aldaketen edo eskuratzeen inguruko informazioa jasotzeko.</message>
-<message key="xmlui.EPerson.PasswordLogin.register_link">Sakatu hemen erregistratzeo.</message>
+<message key="xmlui.EPerson.PasswordLogin.head2">Erabiltzaile berria al zara?</message>
+<message key="xmlui.EPerson.PasswordLogin.para1">Sortu kontu bat</message>
+<message key="xmlui.EPerson.PasswordLogin.register_link">Egin klik erregistratzeko.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
 <message key="xmlui.EPerson.LDAPLogin.title">Sartu</message>
@@ -448,9 +448,9 @@
 	<!-- org.dspace.app.xmlui.eperson.ResetPassword.java -->
 <message key="xmlui.EPerson.ResetPassword.title">Pasahitza berrezarri</message>
 <message key="xmlui.EPerson.ResetPassword.head">Pasahitza berrezarri</message>
-<message key="xmlui.EPerson.ResetPassword.para1">Mesedez, sartu pasahitz berri bat goiko laukitxoan. Berresteko, tekleatu berriro bigarren laukitxoan. Gutxienez sei karaktere eduki beharko luke.</message>
+<message key="xmlui.EPerson.ResetPassword.para1">Sartu pasahitz berri bat lehenengo laukian, mesedez, eta berretsi bigarren laukian. Gutxienez, sei karaktere izan behar ditu.</message>
 <message key="xmlui.EPerson.ResetPassword.email_address">Posta elektronikoko helbidea</message>
-<message key="xmlui.EPerson.ResetPassword.new_password">Helbide berria</message>
+<message key="xmlui.EPerson.ResetPassword.new_password">Pasahitz berria</message>
 <message key="xmlui.EPerson.ResetPassword.confirm_password">Berresteko, errepikatu</message>
 <message key="xmlui.EPerson.ResetPassword.submit">Pasahitza berrezarri</message>
 <message key="xmlui.EPerson.ResetPassword.error_invalid_password">Aukeratu ,gutxienez, 6 karaktere duen pasahitza</message>
@@ -459,7 +459,7 @@
 	<!-- org.dspace.app.xmlui.eperson.StartForgotPassword.java -->
 <message key="xmlui.EPerson.StartForgotPassword.title">Pasahitza ahaztu al duzu?</message>
 <message key="xmlui.EPerson.StartForgotPassword.head">Pasahitza ahaztu al duzu?</message>
-<message key="xmlui.EPerson.StartForgotPassword.para1">Sartu Dspace-n erregistratu zinenean eman zenuen posta elektronikoko helbidea. Bertara bidaliko  zaizkizu behar diren argibideak.</message>
+<message key="xmlui.EPerson.StartForgotPassword.para1">Sartu Gordailuan erregistratzeko erabili zenuen posta elektronikoko helbidea. Bertara bidaliko  zaizkizu pasahitza berreskuratzeko behar diren argibideak.</message>
 <message key="xmlui.EPerson.StartForgotPassword.email_address">Posta elektronikoko helbidea</message>
 <message key="xmlui.EPerson.StartForgotPassword.email_address_help">Sartu erregistroa egin zenuenean erabili zenuen helbide bera.</message>
 <message key="xmlui.EPerson.StartForgotPassword.error_not_found">Posta elektronikoko helbidea ez da aurkitu.</message>
@@ -472,7 +472,7 @@
 <message key="xmlui.EPerson.StartRegistration.reset_password_for">Berrezarri pasahitza:</message>
 <message key="xmlui.EPerson.StartRegistration.submit_reset">Berrezarri pasahitza</message>
 <message key="xmlui.EPerson.StartRegistration.head2">Erabiltzailearen erregistroa</message>
-<message key="xmlui.EPerson.StartRegistration.para2">Sortu kontu bat bildumen harpidetza egiteko, itemen aldaketen edo eskuratzeen inguruko informazioa jasotzeko.</message>
+<message key="xmlui.EPerson.StartRegistration.para2">Sortu kontu bat.</message>
 <message key="xmlui.EPerson.StartRegistration.email_address">Posta elektronikoko helbidea</message>
 <message key="xmlui.EPerson.StartRegistration.email_address_help">Helbide hau egiaztatuko da eta erabiliko da zure sarbiderako izen gisa.</message>
 <message key="xmlui.EPerson.StartRegistration.error_bad_email">Ezinezkoa da posta elektronikorik helbide honetara bidaltzea.</message>
@@ -481,7 +481,7 @@
 	<!-- org.dspace.app.xmlui.eperson.VerifyEmail.java -->
 <message key="xmlui.EPerson.VerifyEmail.title">Egiaztatzeko posta bidali da</message>
 <message key="xmlui.EPerson.VerifyEmail.head">Egiaztatzeko posta bidali da.</message>
-<message key="xmlui.EPerson.VerifyEmail.para">Erregistroa egiteko argibideak eta URL berezi bat dituen posta bat bidali zaio {0}-(r)i.</message>
+<message key="xmlui.EPerson.VerifyEmail.para">Mezu elektroniko bat bidali dizugu {0} helbidera. Mezu horretan dagoen URLan klik egiten baduzu, pasahitz berri bat sartu ahalko duzu.</message>
 
                                  
                                  
@@ -1314,7 +1314,7 @@
 <message key="xmlui.administrative.item.general.template_head">Editatu itemaren txantiloia honako bilduma honetarako: {0}</message>
 <message key="xmlui.administrative.item.general.option_head">Editatu itema</message>
 <message key="xmlui.administrative.item.general.option_status">Itemaren egoera</message>
-<message key="xmlui.administrative.item.general.option_bitstreams">Itemaren fitxategiak</message>
+<message key="xmlui.administrative.item.general.option_bitstreams">Item honetako fitxategiak</message>
 <message key="xmlui.administrative.item.general.option_metadata">Itemaren metadatuak</message>
 <message key="xmlui.administrative.item.general.option_view">Ikusi itema</message>
 <message key="xmlui.administrative.item.general.option_curate">Curar</message>
@@ -1392,8 +1392,8 @@
 <message key="xmlui.administrative.item.EditBitstreamForm.name_help">Ezarri berriro fitxategiaren izena. Ikusiko duzu URLa aldatuko dela, baina lotura zaharrak baliogarriak izan go dira IDa aldatzen ez den bitartean.</message>
 
 	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->
-<message key="xmlui.administrative.item.EditItemBitstreamsForm.title">Itemaren fitxategiak</message>
-<message key="xmlui.administrative.item.EditItemBitstreamsForm.trail">Itemaren fitxategiak</message>
+<message key="xmlui.administrative.item.EditItemBitstreamsForm.title">Item honetako fitxategiak</message>
+<message key="xmlui.administrative.item.EditItemBitstreamsForm.trail">Item honetako fitxategiak</message>
 <message key="xmlui.administrative.item.EditItemBitstreamsForm.head1">Fitxategiak</message>
 <message key="xmlui.administrative.item.EditItemBitstreamsForm.column1"></message>
 <message key="xmlui.administrative.item.EditItemBitstreamsForm.column2">Izena</message>
@@ -1960,19 +1960,19 @@ Para más infomación, visite XMLUI, Texas AM University Libraries-ek Dspacerako
 <message key="xmlui.dri2xhtml.structural.contact-link">Kontaktua</message>
 <message key="xmlui.dri2xhtml.structural.feedback-link">Iradokizunak</message>
 
-<message key="xmlui.dri2xhtml.structural.head-subtitle">Dspace/Manakin errepositorioa</message>
+<message key="xmlui.dri2xhtml.structural.head-subtitle">Euskarazko Ikasmaterialen Gordailua</message>
 
 <message key="xmlui.dri2xhtml.structural.profile">Profila:</message>
 <message key="xmlui.dri2xhtml.structural.logout">Irten</message>
 <message key="xmlui.dri2xhtml.structural.login">Nire Dspace</message>
 
-<message key="xmlui.dri2xhtml.structural.search">Bilatu Dspacen</message>
+<message key="xmlui.dri2xhtml.structural.search">Bilatu Gordailuan</message>
 <message key="xmlui.dri2xhtml.structural.search-advanced">Bilaketa aurreratua</message>
 <message key="xmlui.dri2xhtml.structural.search-in-community">Komunitate honetan</message>
 <message key="xmlui.dri2xhtml.structural.search-in-collection">Bilduma honetan</message>
 
 <message key="xmlui.dri2xhtml.structural.pagination-previous">Aurrekoa</message>
-<message key="xmlui.dri2xhtml.structural.pagination-info">{0}-{1} emaitza {2}-tik</message>
+<message key="xmlui.dri2xhtml.structural.pagination-info">{2}-tik {0}-{1} emaitza erakusten</message>
 <message key="xmlui.dri2xhtml.structural.pagination-next">Hurrengoa</message>
 
 <message key="xmlui.dri2xhtml.structural.link_cc">Creative Commons</message>
