@@ -103,6 +103,8 @@
 <message key="xmlui.ArtifactBrowser.AbstractSearch.order.asc">gorako</message>
 <message key="xmlui.ArtifactBrowser.AbstractSearch.order.desc">beherako</message>
 <message key="xmlui.ArtifactBrowser.AbstractSearch.rpp">Emaitzak/orrialdea</message>
+<!-- Site Leve Recently Added Content -->                                                                                                                                                   
+<message key="xmlui.ArtifactBrowser.SiteViewer.head_recent_submissions">Erantsitako azken lanak</message> 
 
     <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
 <message key="xmlui.ArtifactBrowser.AdvancedSearch.title">Bilaketa aurreratua</message>
@@ -195,7 +197,7 @@
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
 <message key="xmlui.ArtifactBrowser.CommunityBrowser.title">Komunitateen zerrenda</message>
 <message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">Komunitateen zerrenda</message>
-<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Komunitateak Dspace-n</message>
+<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Komunitateak</message>
 <message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Aukeratu komunitate bat zure bildumak bistaratzeko</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
