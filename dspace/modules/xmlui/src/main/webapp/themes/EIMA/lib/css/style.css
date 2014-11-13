@@ -201,13 +201,13 @@ select.multiple {
 
 
 #ds-body {
-    float: left;
+    float: right;
     width: 675px;
     padding-top: 10px;
 }
 
 #ds-options-wrapper {
-    float: right;
+    float: left;
     width: 249px;
     padding-top:10px;
 }
@@ -1392,4 +1392,15 @@ table.discovery-filters th.new-filter-header
 .recentSubmissionViewMore {
     text-align: right;
     font-size: 100%;
+}
+
+#ds-main {
+    width: 995px;
+    margin: 27px auto;
+    background-color: white;
+    box-shadow: 3px 4px 4px 1px #CDCDCD;
+}
+
+body {
+    background-color: rgb(227, 227, 227);
 }
