@@ -569,7 +569,7 @@
                     <a href="http://www.dspace.org/" target="_blank">DSpace software</a> copyright&#160;&#169;&#160;2002-2012&#160; <a href="http://www.duraspace.org/" target="_blank">Duraspace</a>
                 </div>
                 <div id="ds-footer-right">
-                    &nbsp;
+                    <xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text>
                 </div>
                 <div id="ds-footer-links">
                     <a>
