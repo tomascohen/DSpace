@@ -317,6 +317,46 @@
 
     <!-- The header (distinct from the HTML head element) contains the title, subtitle, login box and various
         placeholders for header images -->
+    <xsl:template name="buildEIMAHeader">
+        <div id="brand">
+<div class="brand-wrapper">
+ <div class="brand-main">
+ <div class="logotype">
+ <a href="/">
+ <img src="/opac-tmpl/bootstrap/images/eima-43-f6f6f6.png" alt="Logotipo del Ayuntamiento de Barcelona. Enlace a la página principal del web de Barcelona">
+ </a>
+ </div>
+
+ <div class="navigation">
+ <ul class="options">
+ <li><a href="https://sites.google.com/site/eimakatalogoa/katalogatu-berriak">Katalogatu berriak</a></li>
+ <li><a href="https://sites.google.com/site/eimakatalogoa/estekak">Estekak</a></li>
+ <li><a href="https://sites.google.com/site/eimakatalogoa/home">Tutorialak</a></li>
+ <li class="last"><a href="https://sites.google.com/site/eimakatalogoa/non-gaude">Harremanetarako</a></li>
+ </ul>
+ <ul class="social">
+ <li class="last"><a href="http://twitter.com/eima_katalogoa" title="@eima_katalogoa">
+ <img class="image-on"  src="/opac-tmpl/bootstrap/images/social-twitter-bw.png" alt="Twitter Icon" />
+ </a>
+ </li>
+ </ul>
+ <ul class="languages">
+ <li>
+ <a href="/cgi-bin/koha/opac-changelanguage.pl?language=eu" title="Euskera" hreflang="eu" lang="eu" xml:lang="eu">EUS</a>
+ </li>
+ <li class="active">
+ <span>CAS</span>
+ </li>
+ <li class="last">
+ <a href="/cgi-bin/koha/opac-changelanguage.pl?language=en" title="English" hreflang="en" lang="en" xml:lang="es">ENG</a>
+ </li>
+ </ul>
+
+ </div>
+ </div>
+</div>
+</div>
+    </xsl:template>
     <xsl:template name="buildHeader">
         <div id="ds-header-wrapper">
             <div id="ds-header" class="clearfix">

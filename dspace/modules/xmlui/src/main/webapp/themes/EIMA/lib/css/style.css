@@ -1396,7 +1396,7 @@ table.discovery-filters th.new-filter-header
 
 #ds-main {
     width: 995px;
-    margin: 27px auto;
+    margin: 0px auto;
     background-color: white;
     box-shadow: 3px 4px 4px 1px #CDCDCD;
 }

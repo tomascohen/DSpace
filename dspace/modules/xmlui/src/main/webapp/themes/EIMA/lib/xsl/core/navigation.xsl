@@ -41,21 +41,8 @@
         from metadata available under pageMeta.
     -->
 
-    <!-- Disable Discovery facets on the home page -->
-    <xsl:template match="dri:options/dri:list[@id='aspect.discovery.Navigation.list.discovery']" priority="5">
-        <xsl:if test="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='request' and @qualifier='URI'] != ''">
-            <!-- Copied from the next rule (dri:options/dri:list[dri:list]). -->
-            <xsl:apply-templates select="dri:head"/>
-            <div>
-                <xsl:call-template name="standardAttributes">
-                    <xsl:with-param name="class">ds-option-set</xsl:with-param>
-                </xsl:call-template>
-                <ul class="ds-options-list">
-                    <xsl:apply-templates select="*[not(name()='head')]" mode="nested"/>
-                </ul>
-            </div>
-        </xsl:if>
-    </xsl:template>
+    <!-- Disable Discovery facets -->
+    <xsl:template match="dri:options/dri:list[@id='aspect.discovery.Navigation.list.discovery']" priority="5"/>
 
     <!-- TODO: figure out why i18n tags break the go button -->
     <xsl:template match="dri:options">
