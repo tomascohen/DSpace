@@ -2251,4 +2251,13 @@ Para más infomación, visite XMLUI, Texas AM University Libraries-ek Dspacerako
 <message key="xmlui.aspect.versioning.VersionNoticeTransformer.notice.workflow_version_help">Item honen bertsio berriago bat lan-fluxuan dago.</message>
     <!-- End Versioning -->
 
+    <!--Metadata descriptions by Tomas-->                                                                                                                                    
+    <message key="metadata.dc.type">Material mota</message>                                                                                                                  
+    <message key="metadata.dc.publisher">Argitalpena</message>                                                                                                               
+    <message key="metadata.dc.description">Deskribapena</message>                                                                                                            
+    <message key="metadata.dc.subject">Gaia(k)</message>                                                                                                                     
+    <message key="metadata.dc.description.abstract">Laburpena</message>                                                                                                      
+    <message key="metadata.dcterms.educationLevel">Adina / Maila</message>                                                                                                   
+    <!--/ Metadata descriptions by Tomas-->
+
 </catalogue>

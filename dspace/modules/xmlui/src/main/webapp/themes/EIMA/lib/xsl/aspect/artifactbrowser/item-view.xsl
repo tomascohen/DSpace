@@ -183,24 +183,107 @@
               </xsl:call-template>
           </xsl:when>
 
-          <!-- identifier.uri row -->
-          <xsl:when test="$clause = 3 and (dim:field[@element='identifier' and @qualifier='uri' and descendant::text()])">
-                    <div class="simple-item-view-other">
-	                <span class="bold"><i18n:text>xmlui.dri2xhtml.METS-1.0.item-uri</i18n:text>:</span>
-	                <span>
-	                	<xsl:for-each select="dim:field[@element='identifier' and @qualifier='uri']">
-		                    <a>
-		                        <xsl:attribute name="href">
-		                            <xsl:copy-of select="./node()"/>
-		                        </xsl:attribute>
-		                        <xsl:copy-of select="./node()"/>
-		                    </a>
-		                    <xsl:if test="count(following-sibling::dim:field[@element='identifier' and @qualifier='uri']) != 0">
-		                    	<br/>
-		                    </xsl:if>
-	                    </xsl:for-each>
-	                </span>
-	            </div>
+          <!-- EIMA FIELDS row -->
+          <xsl:when test="$clause = 3">
+             <!-- dc.type -->
+             <xsl:if test="dim:field[@element='type']">
+                <div class="simple-item-view-type">
+                    <span class="bold"><i18n:text>metadata.dc.type</i18n:text>:</span>
+                    <span>
+                        <xsl:for-each select="dim:field[@element='type']">
+                            <span>
+                                <xsl:copy-of select="node()"/>
+                            </span>
+                            <xsl:if test="count(following-sibling::dim:field[@element='type']) != 0">
+                                <br />
+                            </xsl:if>
+                        </xsl:for-each>
+                    </span>
+                </div>
+            </xsl:if>
+            <!-- dc.publisher -->
+            <xsl:if test="dim:field[@element='publisher']">
+                <div class="simple-item-view-publisher">
+                    <span class="bold"><i18n:text>metadata.dc.publisher</i18n:text>:</span>
+                    <span>
+                        <xsl:for-each select="dim:field[@element='publisher']">
+                            <span>
+                                <xsl:copy-of select="node()"/>
+                            </span>
+                            <xsl:if test="count(following-sibling::dim:field[@element='publisher']) != 0">
+                                <br />
+                            </xsl:if>
+                        </xsl:for-each>
+                    </span>
+                </div>
+            </xsl:if>
+            <!-- dc.description
+            <xsl:if test="dim:field[@element='description']">
+                <div class="simple-item-view-subject">
+                    <span class="bold"><i18n:text>metadata.dc.description</i18n:text>:</span>
+                    <span>
+                        <xsl:for-each select="dim:field[@element='description']">
+                            <span>
+                                <xsl:copy-of select="node()"/>
+                            </span>
+                            <xsl:if test="count(following-sibling::dim:field[@element='description']) != 0">
+                                <br />
+                            </xsl:if>
+                        </xsl:for-each>
+                    </span>
+                </div>
+            </xsl:if> -->
+            <!-- dc.subject -->
+            <xsl:if test="dim:field[@element='subject']">
+                <div class="simple-item-view-subject">
+                    <span class="bold"><i18n:text>metadata.dc.subject</i18n:text>:</span>
+                    <span>
+                        <xsl:for-each select="dim:field[@element='subject']">
+                            <span>
+                                <xsl:copy-of select="node()"/>
+                            </span>
+                            <xsl:if test="count(following-sibling::dim:field[@element='subject']) != 0">
+                                <br />
+                            </xsl:if>
+                        </xsl:for-each>
+                    </span>
+                </div>
+            </xsl:if>
+            <!-- dcterms.educationLevel -->
+            <xsl:if test="dim:field[@mdschema='dcterms' and @element='educationLevel']">
+                <div class="simple-item-view-educationLevel">
+                    <span class="bold"><i18n:text>metadata.dcterms.educationLevel</i18n:text>:</span>
+                    <span>
+                        <xsl:for-each select="dim:field[@element='educationLevel']">
+                            <span>
+                                <xsl:copy-of select="node()"/>
+                            </span>
+                            <xsl:if test="count(following-sibling::dim:field[@element='educationLevel']) != 0">
+                                <br />
+                            </xsl:if>
+                        </xsl:for-each>
+                    </span>
+                </div>
+            </xsl:if>
+            <!-- dc.identifier.uri -->
+            <xsl:if test="(dim:field[@element='identifier' and @qualifier='uri' and descendant::text()])">
+                <div class="simple-item-view-other">
+	            <span class="bold"><i18n:text>xmlui.dri2xhtml.METS-1.0.item-uri</i18n:text>:</span>
+	            <span>
+	            	<xsl:for-each select="dim:field[@element='identifier' and @qualifier='uri']">
+		           <a>
+		           <xsl:attribute name="href">
+		             <xsl:copy-of select="./node()"/>
+		           </xsl:attribute>
+		           <xsl:copy-of select="./node()"/>
+		           </a>
+		           <xsl:if test="count(following-sibling::dim:field[@element='identifier' and @qualifier='uri']) != 0">
+                              <br/>
+		           </xsl:if>
+	                </xsl:for-each>
+	            </span>
+	        </div>
+            </xsl:if>
               <xsl:call-template name="itemSummaryView-DIM-fields">
                 <xsl:with-param name="clause" select="($clause + 1)"/>
                 <xsl:with-param name="phase" select="$otherPhase"/>
